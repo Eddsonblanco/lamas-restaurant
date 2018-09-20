@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ container{
+    width: 800px;
+    height: 500px;
+    padding: 20px;
+    border: solid 1px #999999;
+    margin: auto;
+    background-color: #f1f1f1;
+
+
+ }
+
+ #slider{
+     position: relative;
+     width: 600px;
+     height: 450px;
+     padding: 10px;
+     background-color:  #000000;
+     margin: 0 auto;
+     
+
+ }

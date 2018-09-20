@@ -1,0 +1,322 @@
+@font-face {
+    font-family:blowbrush ;
+    src: url(../fonts/blowbrush.ttf);}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    
+    
+}
+
+
+
+body{
+    font-family: dosis, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    overflow: visible;
+    width: 100%;
+    
+}
+header .contenedor .name h2{
+    font-size: 150px;
+    font-family: blowbrush;
+    letter-spacing: 10px;
+    
+    color: #e97828;
+    -webkit-text-stroke: #ffffffc9 2px;
+    
+    text-align: CENTER;
+    
+    
+    
+}
+
+header .contenedor .name  p{
+    font-size: 30px;
+    color: #e0e6e6;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+.contenedor{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    
+      
+}
+/*-------   HEADER -------*/
+
+header{
+    width: 100%;
+    background: url('../img/LAMAS-FONDO-min.jpg');
+    background-size:cover;   
+    position: fixed;
+    background-position: 50% 20%;
+    z-index: 1;  
+    
+    
+}
+header .contenedor{
+    position: relative;
+    
+    
+}
+header .menu1{
+    width: 100%;
+    text-align: center;
+    
+
+}
+
+header .menu1 a{
+    color: #e978284b;
+    font-size: 20px;
+    font-weight: 600;    
+    margin: 20px 20px;
+    text-decoration: none;
+    position: relative;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.507);
+}
+header .menu1 a:hover{
+    text-decoration: underline;
+    
+}
+
+header .text{
+    color: #fff;
+    width: 100%;
+    
+    top: 50%;
+    margin-top: 100px
+}
+header .text h3{
+    font-weight: 600;
+    font-size: 70px;
+    text-align: center;
+    
+}
+header .text h4 {
+    font-weight:200;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+
+
+/*----- ---- MAIN ----- -----*/
+
+.main{
+    
+    background:  #4c80ae;
+    background-repeat:repeat;
+    background-position:relative;
+    
+    
+}
+.main .acerca-de{
+    width: 1000;
+    max-width: 1000px;
+    overflow: visible;
+    margin: auto;
+}
+.main .acerca-de .contenedor {
+    overflow:hidden;
+}
+
+
+.main .acerca-de .contenedor article{
+    background: #e0e6e6;
+    padding: 20px;
+    margin-top: 330px;
+    width: 34%;
+    overflow: visible;
+    float: right;   
+    margin-bottom: 40px;
+    box-shadow: 0px 2px 10px #e7d9ce
+}   
+
+.main .acerca-de article h3{
+    font-size: 60px;
+    font-weight: 400px;
+    text-align: center;  
+    color: rgb(255, 254, 254);
+}
+
+
+.main .acerca-de article p{
+    line-height: 30px;
+    font-weight:700;
+    margin-bottom: 40px;
+    padding: 0  20px;
+    color: #15284d;
+}
+.main .acerca-de .slider{
+    position: absolute;
+    
+    width: 600px;
+    height: 338px;
+    padding:3px;
+    background-color:  #cfbeb2cc;
+    margin-top: 380px
+   
+    
+    
+    
+
+}
+.main .acerca-de .slider div{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+.main .location {
+    background: #e0e6e6;
+    padding: 60px 0;
+    overflow: hidden;
+    
+}
+.main .location .title{
+    text-align: center;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color:rgb(228, 142, 43);
+}
+.main .location .directions{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.main .hours{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.main .location .directions .street{
+    margin-bottom: 15px;
+}
+.main .location .hours h4{
+    margin-bottom: 15px;
+    text-align: right;
+}
+.main .maps{
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.main .map iframe {
+    width: 100%;
+    height: 500px;
+    max-height: 600px;
+}
+
+body footer .contenedor{
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    background: #000;
+}
+body footer .contenedor .socialmedia p{
+    font-size: 100px;
+}
+
+
+    
+
+/*----- ----- MEDIA QUERIES ----- ----- */
+@media screen and (max-width: 950px) {
+    
+    
+    body{
+        width: 100%;
+        
+        display: inline-flex;
+          
+        
+
+    }
+    body .acerca-de{
+        flex-direction: column;
+        
+    }
+    .acerca-de .contenedor {
+        width: 100%
+    }
+    .main .acerca-de .slider{
+
+        position: fixed;        
+        
+        padding:3px;
+        background-color:  #cfbeb2cc;
+        margin-top: 250px
+       
+        
+        
+        
+    
+    }
+    .main .acerca-de .slider div{
+        position:fixed;
+        width: 100%;
+        
+        
+    }
+
+
+        
+	
+  
+    
+	/*.main .map {
+        width: 100%;
+        margin: auto;
+        
+    }
+    iframe {
+        max-width: 100%;
+        height: 50%;
+        min-height: 500px;
+}
+
+@media screen and (max-width: 400px) {
+	.main .acerca-de article h3 {
+		font-size: 34px;
+		margin-bottom: 10px;
+    }
+    .main .menu .titulo{
+
+        font-size: 50px;
+        
+    }
+
+	.main .menu article .nombre,
+	.main .menu article .precio {
+		font-size: 16px;
+		line-height: 16px;
+	}
+
+	.main .ubicacion .direccion {
+		margin-bottom: 15px;
+	}
+
+	.main .ubicacion .direccion, 
+	.main .ubicacion .horarios {
+		width: 100%;
+		text-align: center;
+    }
+    iframe {
+        max-width: 100%;
+        height: auto;
+        min-height: 500px;}

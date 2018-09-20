@@ -1,0 +1,242 @@
+@font-face {
+    font-family:blowbrush ;
+    src: url(../fonts/blowbrush.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    
+}
+
+body{
+    font-family: dosis, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+.contenedor{
+    width: 100%;
+    max-width: px;
+    margin: auto;
+    position: relative;
+      
+}
+/*-------   HEADER -------*/
+
+header{
+    
+    background: url('../img/LAMAS-FONDO-min.jpg');
+    background-position: fixed;
+    background-position: 50% 25%;    
+    background-size: cover;
+    overflow: hidden;
+    height: 350px;
+    
+
+    
+}
+header .contenedor{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    
+   
+}
+
+header  .menu1{
+    width: 100%;
+    text-align:center;
+    position: relative;}
+
+header .menu1 a{
+    color: #e978284b;
+    font-size: 20px;
+    font-weight: 600;    
+    margin: 20px 20px;
+    text-decoration: none;
+    position: relative;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.507);
+    }
+header .menu1 a:hover{
+    text-decoration: underline;
+
+}
+.menu2 a{ 
+    text-decoration: none;
+    font-family: blowbrush ;
+    font-size: 50px;
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: #e97a28;
+    text-align: center;
+    -webkit-text-stroke: 1px black;    
+    width: 100%;
+    max-width: 1000px;
+    justify-content: space-between;
+    height: 80px;
+
+
+}
+.menu2 a:hover{
+    
+    
+}
+
+
+
+.name h2{
+    font-size: 150px;
+    font-family: blowbrush;
+    letter-spacing: 10px;
+    
+    color: #ff7410;
+    -webkit-text-stroke: #ffffffc9 2px;
+    
+    text-align: CENTER;
+    margin-top: 50px;
+    
+    
+    
+}
+
+.name  p{
+    font-size: 30px;
+    color: #e0e6e6;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+/*-----MAIN------*/
+
+
+
+.food {
+   
+    background: url(../img/textura-de-madera_23-2147511826.jpg)  #ffffff;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-position:absolute;   
+    background-attachment: fixed;
+}
+
+.food .contenedor{
+    max-width: 1000px;
+    width: 100%
+}
+
+.menu2 {
+    
+    width: 100%;
+    display:inline-block;
+    position: center;
+    background: #ece8e8;
+    display: flex;
+
+    
+}
+.menu2 .titulo {
+    font-family: blowbrush ;
+    font-size: 50px;
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: #e97a28;
+    text-align: center;
+    -webkit-text-stroke: 1px black;    
+    width: 100%;
+    max-width: 1000px;
+    justify-content: space-between;
+    height: 80px;
+    
+}
+.menu2 .titulo:hover {
+
+    font-size: 60px;
+    background: #ee9c66;
+}
+
+
+.food .contenedor .contenedor-menu,
+.food .contenedor .contenedor-menu2 {
+    border: 1px solid rgb(228, 142, 43);
+    background: #14326977;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.food .contenedor article{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.food .contenedor .categoria{
+    font-size: 20px;
+    font-weight: 300px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.food .contenedor .platillo{
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    
+}
+.food .contenedor .nombre{
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.food .contenedor .precio{
+    font-size: 15px;
+    margin-bottom: 15px;
+    float: right;
+}
+.food .contenedor .descripcion{
+    font-size: 16px;
+    font-weight: 200px;
+    color: #ffffff;
+    clear: both;
+}
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	width:100%;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+
+.food .egt{
+    width: 100%;
+    display: inline-flex;
+    
+    
+}
+
+.food .egt tr th{
+    font-size: 20px;
+    font-weight: 500px;
+    color: #fff;
+    padding: 20px;
+    
+    justify-content: space-between;
+}
+.food .egt tr th p{
+    font-size: 15px;
+    font-weight: 200;
+    color: #fff;
+    padding: 5px;
+
+}
+.food .egt tr td{
+    font-size: 12px;
+    color: #fff;
+    padding: 40px;
+    
+    justify-content: space-between;
+
+}
