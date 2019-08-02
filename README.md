@@ -1,4 +1,16 @@
 ##LamasRestaurant  | www.lamasrestaurant.com 
+
+
+<h2> Overview </h2>
 - My first website for a local restaurant using self-taught skills.
 - Built UI/UX and Front-End from scratch according to client’s vision.
-$Tools :  Html / Css.
+
+
+##Implemented Technology
+
+- Html5
+- Css
+
+
+![Image of Preview](img/lamaspreview.png/)
+
