@@ -1,4 +1,4 @@
-##LamasRestaurant  | www.lamasrestaurant.com 
+##LamasRestaurant  | www.lamasrestaurant.com  - automatic! 
 
 
 <h2> Overview </h2>
