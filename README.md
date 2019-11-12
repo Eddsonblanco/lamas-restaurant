@@ -1,5 +1,5 @@
 ## LamasRestaurant  |<br>
-www.lamasrestaurant.com  
+https://eddsonblanco.github.io/lamas-restaurant/ 
 
 
 <h2> Overview </h2>
